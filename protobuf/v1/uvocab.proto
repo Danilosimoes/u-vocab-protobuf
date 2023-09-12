@@ -6,6 +6,6 @@ option java_package = "uvocab.protobuf.v1";
 
 option java_multiple_files = true;
 
-message Test{
+message Proto{
     string test = 1;
 }
