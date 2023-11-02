@@ -9,3 +9,9 @@ option java_multiple_files = true;
 message Proto{
     string test = 1;
 }
+
+message User{
+    string login = 1;
+    string email = 2;
+}
+
