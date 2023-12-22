@@ -18,5 +18,5 @@ message User{
 
 message Word{
     int64   id = 1;
-    string value = 2;
+    string word = 2;
 }
