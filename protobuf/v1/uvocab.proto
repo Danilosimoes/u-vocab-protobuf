@@ -16,7 +16,7 @@ message User{
     string email = 3;
 }
 
-message Word{
+message Vocabulary{
     int64   id = 1;
-    string value = 2;
+    string word = 2;
 }
