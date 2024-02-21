@@ -22,7 +22,7 @@ message Vocabulary{
 }
 
 message Vocabularies {
-    int32 total_results = 1;
+    int64 total_results = 1;
     int32 page_number = 2;
     int32 total_pages = 3;
     repeated Vocabulary vocabularies = 4;
